@@ -489,7 +489,7 @@ form textarea{
 
 @media only screen and (max-width: 600px){
 	#header{
-		background-image: url(headshot.jpeg);
+		background-image: url(new\ photo.png)
 	}
 }
 
@@ -497,7 +497,7 @@ form textarea{
 	header{
 		padding: 12px 2.5%;
 		transition: .1s;
-		background-image: url(new\ canva\ headshot\ pic.png);
+		background-image: url(new\ photo.png);
 	}
 	header.sticky{
 		padding: 10px 2.5%;
@@ -511,7 +511,7 @@ form textarea{
 	}
 }
 
-@media (max-width: 1100px){
+@media (max-width: 300px){
 	:root{
 		--big-font: 4rem;
 	  --h2-font: 12px;
@@ -568,7 +568,7 @@ form textarea{
 	.navlist a{
 		display: block;
 		margin: 17px;
-		font-size: 20px;
+		font-size: 30px;
 		transition: all .45s ease;
 		color: var(--text-color);
 	}
