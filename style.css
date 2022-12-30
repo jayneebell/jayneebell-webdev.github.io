@@ -496,12 +496,12 @@ form textarea{
 @media (max-width: 1480px){
 	header{
 		padding: 12px 2.5%;
-        font-size: 15px;
+        font-size: 12px;
 		transition: .1s;
 		background-image: url(Screen\ Shot\ 2022-12-27\ at\ 3.53.37\ PM.png);
 	}
 	header.sticky{
-		padding: 10px 2.5%;
+		padding: 100px 2.5%;
 		transition: .1s;;
 	}
 	section{
