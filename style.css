@@ -489,15 +489,16 @@ form textarea{
 
 @media only screen and (max-width: 600px){
 	#header{
-		background-image: url(new\ photo.png)
+		background-image: url(Screen\ Shot\ 2022-12-27\ at\ 3.53.37\ PM.png)
 	}
 }
 
 @media (max-width: 1480px){
 	header{
 		padding: 12px 2.5%;
+        font-size: 15px;
 		transition: .1s;
-		background-image: url(new\ photo.png);
+		background-image: url(Screen\ Shot\ 2022-12-27\ at\ 3.53.37\ PM.png);
 	}
 	header.sticky{
 		padding: 10px 2.5%;
@@ -529,6 +530,7 @@ form textarea{
 	.home{
 		height: 87vh;
 	}
+    
 }
 
 @media (max-width: 920px){
@@ -537,16 +539,24 @@ form textarea{
 	}
 	.about-img{
 		text-align: center;
-		order: 2;
+		order: 4;
 	}
 	.about-img img{
 		width: 100%;
-		height: auto;
+        height: auto;
 		max-width: 100%;
 	}
 	.contact{
 		grid-template-columns: 1fr;
 	}
+    .mytabs {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 415px;
+        margin: auto;
+        padding: 25px;
+        font-size: 15px;
+    }
 }
 
 
