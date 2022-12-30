@@ -362,17 +362,17 @@ body {
 	color: ff004f;
 	text-decoration: none;
 	font-size: 18px;
-	line-height: 60px;
 }
 
 .layer h5{
-	font-size: 13px;
+	font-size: 15px;
 	font-weight: 600;
 	margin-bottom: 10px;
+	justify-content:baseline;
 }
 .layer p{
 	color: var(--second-color);
-	font-size: 1rem;
+	font-size: 15px;
 	line-height: 1.8;
 }
 .layer i{
@@ -513,12 +513,11 @@ form textarea{
 @media (max-width: 1480px){
 	header{
 		padding: 12px 2.5%;
-        font-size: 12px;
 		transition: .1s;
-		background-image: url(Screen\ Shot\ 2022-12-27\ at\ 3.53.37\ PM.png);
+	
 	}
 	header.sticky{
-		padding: 100px 2.5%;
+		padding: 10px 2.5%;
 		transition: .1s;;
 	}
 	section{
@@ -556,7 +555,7 @@ form textarea{
 	}
 	.about-img{
 		text-align: center;
-		order: 4;
+		order: 2;
 	}
 	.about-img img{
 		width: 100%;
@@ -566,18 +565,10 @@ form textarea{
 	.contact{
 		grid-template-columns: 1fr;
 	}
-    .mytabs {
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 415px;
-        margin: auto;
-        padding: 25px;
-        font-size: 15px;
-    }
 }
 
 
-@media (max-width: 600px){
+@media (max-width: 840px){
 	#menu-icon{
 		display: block;
 	}
